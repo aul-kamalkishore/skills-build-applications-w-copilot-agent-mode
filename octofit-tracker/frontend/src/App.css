@@ -1,0 +1,105 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.08);
+}
+.navbar .navbar-brand, .navbar .nav-link, .navbar .navbar-text {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover {
+  color: #ffbe0b !important;
+}
+.navbar .btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+.navbar .btn-outline-light:hover {
+  background: #ffbe0b;
+  color: #22223b;
+}
+
+/* Headings */
+h1, h2, h3, .card-title {
+  color: #3a86ff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.04);
+}
+.table th {
+  background: #8338ec !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #f1f3fa;
+}
+.table-bordered {
+  border-color: #3a86ff;
+}
+
+/* Buttons */
+.btn-primary, .btn-outline-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  background: #ffbe0b;
+  color: #22223b;
+}
+
+/* Links */
+a, .App-link {
+  color: #8338ec;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ff006e;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(51, 51, 153, 0.08);
+  border: none;
+}
+.card-title {
+  color: #3a86ff;
+}
+
+/* Alerts */
+.alert-info {
+  background: #e0eafc;
+  color: #3a86ff;
+  border: 1px solid #3a86ff;
+}
+
+/* Custom logo */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
